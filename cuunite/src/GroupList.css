@@ -1,0 +1,31 @@
+.enterGroup {
+  display: inline;
+}
+
+.inputGroup {
+  margin-right: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.inputGroup:focus {
+  border: 2px solid #950740;
+}
+
+.buttonGroup {
+  color: #950740;
+  background-color: #ffffff;
+  outline: none;
+  border-radius: 5px;
+}
+
+.buttonGroup:active {
+  background-color: #C3073F;
+  color: #ffffff;
+}
+
+.groupList {
+  float: center;
+  text-align: center;
+  font-size: 15px;
+}

@@ -1,0 +1,53 @@
+.enterInterest {
+  display: inline;
+}
+
+.inputInterest {
+  margin-right: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.inputInterest:focus {
+  border: 2px solid #950740;
+}
+
+.button {
+  color: #950740;
+  background-color: #ffffff;
+  outline: none;
+  border-radius: 5px;
+}
+
+.button:active {
+  background-color: #c3073f;
+  color: #ffffff;
+}
+
+.checkBox {
+  display: none;
+}
+
+.checkBox + label:before {
+  content: "\2714";
+  border-radius: 0.2em;
+  width: 1em;
+  height: 1em;
+  padding-top: 0.2em;
+  padding-left: 0.2em;
+  padding-bottom: 0.2em;
+  padding-right: 0.2em;
+  display: inline-block;
+  color: transparent;
+  transition: 0.2s;
+}
+
+.checkBox:checked + label:before {
+ background-color:  #c3073f;
+ color: #ffffff;
+}
+
+.interestList {
+  text-align: left; 
+  font-size: 15px;
+}

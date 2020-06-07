@@ -1,0 +1,103 @@
+.Title {
+   font-size: 50px;
+   height: 75px;
+   justify-self: center;
+   align-self: center;
+   grid-area: t;
+}
+
+.Signing {
+  background-color: #4E4E50;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  padding: 20px;
+  justify-self: center;
+  align-self: center;
+  border-color: #950740;
+  border-style: outset;
+  border-width: 5px;
+  grid-area: s;
+}
+
+.yourInt {
+    background-image: linear-gradient(to right, #C3073F, #950740);
+    background-color: transparent;
+    border-color: #4E4E50;
+    border-width: 5 px;
+    border-style: outset;
+    width: 400px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 20px;
+    justify-self: center;
+    align-self: start;
+    grid-area: yi;
+ }
+
+ .quiz {
+  text-align: center;
+  background-image: linear-gradient(to right, #C3073F, #950740);
+  width: 400px;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 20px;
+  justify-self: center;
+  border-color: #4E4E50;
+  border-width: 5 px;
+  border-style: outset;
+  align-self: start;
+  grid-area: q;
+ }
+
+ .yourGroup {
+  background-image: linear-gradient(to right, #C3073F, #950740);
+  width: 400px;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 20px;
+  justify-self: center;
+  align-self: start;
+  grid-area: yg;
+  border-color: #4E4E50;
+  border-width: 5 px;
+  border-style: outset;
+}
+
+.recGroup {
+  background-image: linear-gradient(to right, #C3073F, #950740);
+  width: 400px;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 20px;
+  justify-self: center;
+  align-self: start;
+  grid-area: rg;
+  border-color: #4E4E50;
+  border-width: 5 px;
+  border-style: outset;
+}
+
+.App {
+  background-color: #1A1A1D;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-weight: bold;
+  display: grid;
+  margin: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-areas: 
+  "t t   s s"
+  "yi yi  q q"
+  "yg yg  rg rg";
+}
+
+
+
+
+
+

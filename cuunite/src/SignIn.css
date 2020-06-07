@@ -1,0 +1,18 @@
+.b {
+  background-color: #4E4E50;
+  border: none;
+  color:  #C3073F;
+  padding: 5 px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+
+.b:active {
+  color: #ffffff;
+}
